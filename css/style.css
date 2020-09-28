@@ -1996,7 +1996,7 @@ body:after {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .2em; }
-  .post-meta a {
+.post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
@@ -2004,6 +2004,25 @@ figure figcaption {
   margin-top: .5rem;
   font-style: italic;
   font-size: .8rem; }
+  
+  /*back to top*/
+.back_to_top {
+    float: right;
+    margin-right: 0px;
+    border: 2px solid #d2c4c4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+	cursor: pointer;
+
+}
+.back_to_top p{
+    font-size: 14px;
+    color: #FFF;
+}
+
 
 /*PRELOADING------------ */
 #overlayer {
